@@ -1,0 +1,56 @@
+<mat-toolbar color="primary">
+  <span>My App</span>
+
+<span class="example-fill-remaining-space"></span>
+<span><button mat-button [matMenuTriggerFor]="menu">Account</button>
+<mat-menu #menu="matMenu">
+    <button mat-menu-item [routerLink] = "['/login']">Sign Out</button>
+    <button mat-menu-item [routerLink] = "['/']">Home</button>
+  </mat-menu>
+</span>
+</mat-toolbar>
+
+<br>
+<br>
+<button mat-raised-button (click)="openDialog()">Add items</button>
+  
+
+
+
+<br>
+<br>
+<div class="example-container">
+  
+
+  <form id="formNewProduct" name="formNewProduct" #productData="ngForm" (ngSubmit)="additems(productData.value)">
+    <mat-form-field>
+      <input matInput name="id" id="id" placeholder="id" ngModel>
+    </mat-form-field> &nbsp;&nbsp;&nbsp;
+
+    <mat-form-field>
+        <input matInput name="name" id="name" placeholder="name" ngModel>
+    </mat-form-field>&nbsp;&nbsp;&nbsp;
+    <mat-form-field>
+          <input matInput name="weight" id="weight" placeholder="weight" ngModel>
+    </mat-form-field>&nbsp;&nbsp;&nbsp;
+
+    <mat-form-field>
+            <input matInput name="price" id="price" placeholder="price" ngModel>
+    </mat-form-field>&nbsp;&nbsp;&nbsp;
+          
+    <mat-form-field>
+              <input matInput name="touchpad" id="touchpad" placeholder="touchpad" ngModel>
+    </mat-form-field>&nbsp;&nbsp;&nbsp;
+
+    <mat-form-field>
+        <input matInput name="wireless" id="wireless" placeholder="wireless" ngModel>
+    </mat-form-field><br>
+    
+    <button mat-raised-button color="primary">Add Items</button>
+    &nbsp; &nbsp;
+    <button mat-raised-button [routerLink] = "['/customer']" color="primary">Back</button>
+
+  </form>
+<h3 *ngIf="isAdded" >{{confirmationString}}</h3>
+
+</div>

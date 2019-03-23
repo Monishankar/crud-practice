@@ -1,0 +1,15 @@
+.example-fill-remaining-space {
+   
+    flex: 1 1 auto;
+  }
+  
+  table {
+      width: 100%;
+    }
+  h4{
+    text-align: center;
+  } 
+  .example-container{
+    text-align: right;
+    position: right;
+  }

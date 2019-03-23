@@ -1,0 +1,162 @@
+{
+  "items": [
+    {
+      "id": "1",
+      "name": "Accer",
+      "wireless": "-",
+      "weight": "1.0107",
+      "touchpad": "-",
+      "price": "35000"
+    },
+    {
+      "id": "2",
+      "name": "Sony-Vaio",
+      "wireless": "-",
+      "weight": "1.0107",
+      "touchpad": "-",
+      "price": "55000"
+    },
+    {
+      "id": "3",
+      "name": "Dell",
+      "wireless": "-",
+      "weight": "1.0107",
+      "touchpad": "-",
+      "price": "35000"
+    },
+    {
+      "id": "4",
+      "name": "Sony-vaio",
+      "weight": "1.50",
+      "price": "45500",
+      "touchpad": "-",
+      "wireless": "-"
+    },
+    {
+      "id": "5",
+      "name": "mac",
+      "wireless": "-",
+      "weight": "2.0122",
+      "touchpad": "-",
+      "price": "75000"
+    },
+    {
+      "id": "6",
+      "name": "Videocon",
+      "weight": "1.67",
+      "price": "45000",
+      "touchpad": "yes",
+      "wireless": "no"
+    },
+    {
+      "id": "7",
+      "name": "sony",
+      "weight": "1.29",
+      "price": "34000",
+      "touchpad": "no",
+      "wireless": "yes"
+    },
+    {
+      "id": "8",
+      "name": "abhijit",
+      "weight": "8",
+      "price": "9898989",
+      "touchpad": "",
+      "wireless": ""
+    }
+  ],
+  "items1": [
+    {
+      "id": "1",
+      "name": "iphone",
+      "wireless": "-",
+      "weight": "1.0107",
+      "touchpad": "-",
+      "price": "35000"
+    },
+    {
+      "id": "2",
+      "name": "Vivo",
+      "wireless": "-",
+      "weight": "1.0107",
+      "touchpad": "-",
+      "price": "55000"
+    },
+    {
+      "id": "3",
+      "name": "Oppo",
+      "wireless": "-",
+      "weight": "1.0107",
+      "touchpad": "-",
+      "price": "35000"
+    },
+    {
+      "id": "4",
+      "name": "Xiomi",
+      "wireless": "-",
+      "weight": "1.0107",
+      "touchpad": "-",
+      "price": "35000"
+    }
+  ],
+  "items2": [
+    {
+      "id": "1",
+      "name": "Samsung",
+      "wireless": "-",
+      "weight": "1.0107",
+      "touchpad": "-",
+      "price": "35000"
+    },
+    {
+      "id": "2",
+      "name": "Philips",
+      "wireless": "-",
+      "weight": "1.0107",
+      "touchpad": "-",
+      "price": "55000"
+    },
+    {
+      "id": "3",
+      "name": "iphone",
+      "wireless": "-",
+      "weight": "1.0107",
+      "touchpad": "-",
+      "price": "35000"
+    }
+  ],
+  "items3": [
+    {
+      "id": "1",
+      "name": "BOAT",
+      "wireless": "-",
+      "weight": "1.0107",
+      "touchpad": "-",
+      "price": "25000"
+    },
+    {
+      "id": "2",
+      "name": "JBL",
+      "wireless": "-",
+      "weight": "1.0107",
+      "touchpad": "-",
+      "price": "7000"
+    },
+    {
+      "id": "3",
+      "name": "Samsung",
+      "wireless": "-",
+      "weight": "1.0107",
+      "touchpad": "-",
+      "price": "5000"
+    },
+    {
+      "id": "4",
+      "name": "Philips",
+      "wireless": "-",
+      "weight": "1.0107",
+      "touchpad": "-",
+      "price": "7000"
+    }
+  ]
+}

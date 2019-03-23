@@ -1,0 +1,38 @@
+<h1 mat-dialog-title>Hi</h1>
+
+<div mat-dialog-content>
+<form id="formNewProduct" name="formNewProduct" #productData="ngForm"(ngSubmit)="additems(productData.value)">
+ 
+  <mat-form-field>
+      <input matInput name="id" id="id" placeholder="id" ngModel>
+    </mat-form-field> &nbsp;&nbsp;&nbsp;
+
+    <mat-form-field>
+        <input matInput name="name" id="name" placeholder="name" ngModel>
+    </mat-form-field>&nbsp;&nbsp;&nbsp;
+    <mat-form-field>
+          <input matInput name="weight" id="weight" placeholder="weight" ngModel>
+    </mat-form-field>&nbsp;&nbsp;&nbsp;
+
+    <mat-form-field>
+            <input matInput name="price" id="price" placeholder="price" ngModel>
+    </mat-form-field>&nbsp;&nbsp;&nbsp;
+          
+    <mat-form-field>
+              <input matInput name="touchpad" id="touchpad" placeholder="touchpad" ngModel>
+    </mat-form-field>&nbsp;&nbsp;&nbsp;
+
+    <mat-form-field>
+        <input matInput name="wireless" id="wireless" placeholder="wireless" ngModel>
+    </mat-form-field><br>
+
+  <button mat-button (click)="onNoClick()">Cancel</button>
+  <button mat-button [mat-dialog-close]="data.id" cdkFocusInitial>Submit</button>
+</form>
+<h3 *ngIf="isAdded" >{{confirmationString}}</h3>
+</div>
+<!-- 
+<div mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">Cancel</button>
+  <button mat-button [mat-dialog-close]="data.id" cdkFocusInitial>Submit</button>
+</div> -->
